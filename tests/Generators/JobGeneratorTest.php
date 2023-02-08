@@ -2,10 +2,10 @@
 
 use Lorisleiva\Actions\Decorators\JobDecorator;
 use Lorisleiva\Actions\Decorators\UniqueJobDecorator;
-use Wulfheart\LaravelActionsIdeHelper\Service\Generator\DocBlock\AsJobGenerator;
-use Wulfheart\LaravelActionsIdeHelper\Service\Generator\DocBlock\AsObjectGenerator;
-use Wulfheart\LaravelActionsIdeHelper\Tests\stubs\Jobs\WithDecoratorAction;
-use Wulfheart\LaravelActionsIdeHelper\Tests\stubs\Jobs\WithoutDecoratorAction;
+use FmTod\IdeHelperActions\Service\Generator\DocBlock\AsJobGenerator;
+use FmTod\IdeHelperActions\Service\Generator\DocBlock\AsObjectGenerator;
+use FmTod\IdeHelperActions\Tests\stubs\Jobs\WithDecoratorAction;
+use FmTod\IdeHelperActions\Tests\stubs\Jobs\WithoutDecoratorAction;
 
 it('runs without an error', function (string $class, array $expectations) {
     $ai = getActionInfo($class);

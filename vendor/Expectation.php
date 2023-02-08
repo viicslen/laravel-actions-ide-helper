@@ -3,6 +3,7 @@
 namespace Pest;
 
 /**
+ * @method mixed toBeOne()
  * @method mixed toMatchSnapshot()
  * @method mixed toMatchFileHashSnapshot()
  * @method mixed toMatchFileSnapshot()
@@ -12,6 +13,5 @@ namespace Pest;
  * @method mixed toMatchTextSnapshot()
  * @method mixed toMatchXmlSnapshot()
  * @method mixed toMatchYamlSnapshot()
- * @method mixed toBeOne()
  */
 final class Expectation {}

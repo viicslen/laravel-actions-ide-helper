@@ -1,10 +1,10 @@
 <?php
 
-namespace Wulfheart\LaravelActionsIdeHelper;
+namespace FmTod\IdeHelperActions;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Wulfheart\LaravelActionsIdeHelper\Commands\LaravelActionsIdeHelperCommand;
+use FmTod\IdeHelperActions\Commands\LaravelActionsIdeHelperCommand;
 
 class LaravelActionsIdeHelperServiceProvider extends PackageServiceProvider
 {

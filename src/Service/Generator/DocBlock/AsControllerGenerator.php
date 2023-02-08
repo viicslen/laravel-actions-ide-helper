@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Wulfheart\LaravelActionsIdeHelper\Service\Generator\DocBlock;
+namespace FmTod\IdeHelperActions\Service\Generator\DocBlock;
 
 use Lorisleiva\Actions\Concerns\AsController;
 

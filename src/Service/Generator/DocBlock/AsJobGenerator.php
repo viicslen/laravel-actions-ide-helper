@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Wulfheart\LaravelActionsIdeHelper\Service\Generator\DocBlock;
+namespace FmTod\IdeHelperActions\Service\Generator\DocBlock;
 
 use Illuminate\Foundation\Bus\PendingDispatch;
 use Illuminate\Support\Fluent;
@@ -10,8 +10,8 @@ use Lorisleiva\Actions\Decorators\JobDecorator;
 use Lorisleiva\Actions\Decorators\UniqueJobDecorator;
 use phpDocumentor\Reflection\Php\Argument;
 use phpDocumentor\Reflection\Types\Boolean;
-use Wulfheart\LaravelActionsIdeHelper\Service\Generator\DocBlock\Custom\Method;
-use Wulfheart\LaravelActionsIdeHelper\Service\ActionInfo;
+use FmTod\IdeHelperActions\Service\Generator\DocBlock\Custom\Method;
+use FmTod\IdeHelperActions\Service\ActionInfo;
 
 class AsJobGenerator extends DocBlockGeneratorBase
 {

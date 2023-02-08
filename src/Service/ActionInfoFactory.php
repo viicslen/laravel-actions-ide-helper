@@ -1,6 +1,6 @@
 <?php
 
-namespace Wulfheart\LaravelActionsIdeHelper\Service;
+namespace FmTod\IdeHelperActions\Service;
 
 use Illuminate\Support\Str;
 use Lorisleiva\Actions\Concerns\AsCommand;
@@ -18,7 +18,7 @@ use Symfony\Component\Finder\SplFileInfo;
 class ActionInfoFactory
 {
     /**
-     * @return array<\Wulfheart\LaravelActionsIdeHelper\Service\ActionInfo>
+     * @return array<\FmTod\IdeHelperActions\Service\ActionInfo>
      * @throws \phpDocumentor\Reflection\Exception
      */
     public static function create(string $path): array

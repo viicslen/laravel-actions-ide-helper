@@ -1,6 +1,6 @@
 <?php
 
-namespace Wulfheart\LaravelActionsIdeHelper\Tests\stubs\IntersectionTypes;
+namespace FmTod\IdeHelperActions\Tests\stubs\IntersectionTypes;
 
 use Lorisleiva\Actions\Concerns\AsObject;
 use PhpParser\Node\Expr\Array_;

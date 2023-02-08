@@ -1,6 +1,6 @@
 <?php
 
-namespace Wulfheart\LaravelActionsIdeHelper\Service\Generator\DocBlock\Custom;
+namespace FmTod\IdeHelperActions\Service\Generator\DocBlock\Custom;
 
 use phpDocumentor\Reflection\DocBlock\Description;
 use phpDocumentor\Reflection\DocBlock\Tags\BaseTag;

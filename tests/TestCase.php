@@ -1,9 +1,9 @@
 <?php
 
-namespace Wulfheart\LaravelActionsIdeHelper\Tests;
+namespace FmTod\IdeHelperActions\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
-use Wulfheart\LaravelActionsIdeHelper\LaravelActionsIdeHelperServiceProvider;
+use FmTod\IdeHelperActions\LaravelActionsIdeHelperServiceProvider;
 
 class TestCase extends Orchestra
 {

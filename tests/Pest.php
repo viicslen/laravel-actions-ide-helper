@@ -1,9 +1,9 @@
 <?php
 
-use Wulfheart\LaravelActionsIdeHelper\Service\ActionInfo;
-use Wulfheart\LaravelActionsIdeHelper\Service\ActionInfoFactory;
+use FmTod\IdeHelperActions\Service\ActionInfo;
+use FmTod\IdeHelperActions\Service\ActionInfoFactory;
 
-uses(\Wulfheart\LaravelActionsIdeHelper\Tests\TestCase::class)->in(__DIR__);
+uses(\FmTod\IdeHelperActions\Tests\TestCase::class)->in(__DIR__);
 
 /** @param  class-string  $class */
 function getActionInfo(string $class): ActionInfo {

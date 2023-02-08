@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Wulfheart\LaravelActionsIdeHelper\Service;
+namespace FmTod\IdeHelperActions\Service;
 
 use phpDocumentor\Reflection\DocBlock;
 use phpDocumentor\Reflection\DocBlock\Serializer;
@@ -23,7 +23,7 @@ class BuildIdeHelper
     }
 
     /**
-     * @param  \Wulfheart\LaravelActionsIdeHelper\Service\ActionInfo[]  $actionInfos
+     * @param  \FmTod\IdeHelperActions\Service\ActionInfo[]  $actionInfos
      */
     public function build(array $actionInfos): string
     {
@@ -34,7 +34,7 @@ class BuildIdeHelper
         $nodes = [];
         /**
          * @var string $namespace
-         * @var \Wulfheart\LaravelActionsIdeHelper\Service\ActionInfo[] $items
+         * @var \FmTod\IdeHelperActions\Service\ActionInfo[] $items
          */
         $factory = new BuilderFactory();
         foreach ($groups as $namespace => $items) {

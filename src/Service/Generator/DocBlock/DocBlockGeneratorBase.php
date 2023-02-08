@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Wulfheart\LaravelActionsIdeHelper\Service\Generator\DocBlock;
+namespace FmTod\IdeHelperActions\Service\Generator\DocBlock;
 
 use phpDocumentor\Reflection\Php\Argument;
 use phpDocumentor\Reflection\Type;
 use phpDocumentor\Reflection\TypeResolver;
-use Wulfheart\LaravelActionsIdeHelper\Service\ActionInfo;
+use FmTod\IdeHelperActions\Service\ActionInfo;
 
 class DocBlockGeneratorBase implements DocBlockGeneratorInterface
 {

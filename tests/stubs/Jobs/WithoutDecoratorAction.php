@@ -1,6 +1,6 @@
 <?php
 
-namespace Wulfheart\LaravelActionsIdeHelper\Tests\stubs\Jobs;
+namespace FmTod\IdeHelperActions\Tests\stubs\Jobs;
 
 use Lorisleiva\Actions\Concerns\AsJob;
 

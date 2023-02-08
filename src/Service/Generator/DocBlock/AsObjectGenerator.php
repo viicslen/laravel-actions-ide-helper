@@ -1,18 +1,18 @@
 <?php
 
 
-namespace Wulfheart\LaravelActionsIdeHelper\Service\Generator\DocBlock;
+namespace FmTod\IdeHelperActions\Service\Generator\DocBlock;
 
 use Lorisleiva\Actions\Concerns\AsObject;
 use phpDocumentor\Reflection\DocBlock\Tags\Method;
-use Wulfheart\LaravelActionsIdeHelper\Service\ActionInfo;
+use FmTod\IdeHelperActions\Service\ActionInfo;
 
 class AsObjectGenerator extends DocBlockGeneratorBase
 {
     protected string $context = AsObject::class;
 
     /**
-     * @param  \Wulfheart\LaravelActionsIdeHelper\Service\ActionInfo  $info
+     * @param  \FmTod\IdeHelperActions\Service\ActionInfo  $info
      * @return \phpDocumentor\Reflection\DocBlock\Tag[]
      */
     public function generate(ActionInfo $info): array
